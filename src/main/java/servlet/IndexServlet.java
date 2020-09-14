@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 
 public class IndexServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         try (ServletOutputStream os = resp.getOutputStream()) {
             URI uri = this.getClass().getClassLoader().getResource("like-page.html").toURI();
             Path path = Paths.get(uri);
