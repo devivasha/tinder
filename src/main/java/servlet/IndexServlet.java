@@ -16,12 +16,11 @@ public class IndexServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try (ServletOutputStream os = resp.getOutputStream()) {
-            URI uri = this.getClass().getClassLoader().getResource("index.html").toURI();
+            URI uri = this.getClass().getClassLoader().getResource("like-page.html").toURI();
             Path path = Paths.get(uri);
             Files.copy(path, os);
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
