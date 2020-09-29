@@ -1,7 +1,9 @@
+<style type="text/css">
 html,
 body {
   height: 100%;
 }
+
 body {
   display: -ms-flexbox;
   display: flex;
@@ -25,6 +27,7 @@ body {
   box-sizing: border-box;
   height: auto;
   padding: 10px;
+  margin:8px;
   font-size: 16px;
 }
 .form-signin .form-control:focus {
@@ -365,4 +368,4 @@ input:focus{
 .msg-box input:focus{
   outline: none;
 }
-
+</style>
