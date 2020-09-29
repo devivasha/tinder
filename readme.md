@@ -1,3 +1,5 @@
+https://tinderapp3.herokuapp.com/login
+
 #Tinder
         Создать MVP приложения для знакомств Tinder
         Вы можете найти готовые шаблоны всех HTML страниц в папке templates.
