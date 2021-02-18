@@ -1,10 +1,9 @@
-
-https://tinderapp3.herokuapp.com/login
-login : nat_ivaniv@ukr.net; password: 111111;
-
-
-
-
+<pre>
+  MVP of Dating App Tinder. - Technologies used: Java, PostgreSQL
+  <pre>site:</pre> https://tinderapp3.herokuapp.com/login
+  <pre>login : nat_ivaniv@ukr.net; password: 111111;</pre>
+  <pre>GitHub:</pre> https://github.com/devivasha/tinder
+ </pre>
 
 <pre>Задача
 Создать MVP приложения для знакомств Tinder
